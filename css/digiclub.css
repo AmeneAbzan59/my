@@ -1,0 +1,142 @@
+.digiclub {
+  margin-top: 50px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .digiclub-center {
+    background-color: #5972c9;
+    border-radius: 10px;
+    width: 65%;
+    height: 60px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+
+    padding: 0px 10px;
+    .right {
+      width: 10%;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      padding-right: 15px;
+      div a {
+        text-decoration: none;
+        img {
+          width: 75px;
+          height: 25px;
+        }
+      }
+    }
+    .lb {
+      width: 60%;
+      height: 45px;
+      display: flex;
+      align-items: center;
+
+      justify-content: left;
+      border-radius: 10px;
+      .left {
+        width: 100%;
+        height: 45px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: left;
+
+        background-color: white;
+        background-color: #5972c9;
+        justify-content: left;
+        column-gap: 2px;
+        .l1 {
+          width: 32%;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: space-between;
+          background-color: white;
+          border-left:1px whitesmoke solid;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+          .r {
+            width: 15px;
+            padding-right: 3px;
+            box-sizing: border-box;
+          }
+
+          span {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 8px;
+          }
+          .l {
+            width: 90px;
+            height: 43px;
+          }
+        }
+
+        .l2 {
+          width: 32%;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: space-between;
+          background-color: white;
+          .r {
+            width: 15px;
+            padding-right: 3px;
+            box-sizing: border-box;
+          }
+
+          span {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 8px;
+          }
+          .l {
+            width: 90px;
+            height: 43px;
+          }
+        }
+
+
+        .l3 {
+          width: 33%;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: space-between;
+          background-color: white;
+          
+          padding: 0px 5px;
+          box-sizing: border-box;
+          border-right:1px whitesmoke solid;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+          .r {
+            width: 15px;
+          }
+
+          span {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 8px;
+          }
+          .l {
+            width: 90px;
+            height: 43px;
+            
+          }
+        }
+      }
+    }
+  }
+}
+.border-R {
+  border-radius: 10px;
+}

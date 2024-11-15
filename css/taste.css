@@ -1,0 +1,219 @@
+.taste1 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  .taste1-center {
+    width: 65%;
+    height: 99.5%;
+    padding-right: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 18px;
+    border-radius: 15px;
+    border: 1px  rgb(219, 218, 218) solid;
+    .taste1-center-item {
+      width: 100%;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 5px;
+      box-sizing: border-box;
+      .item1,.item2,.item3,.item4 {
+        box-sizing: border-box;
+        width: 25%;
+        height: inherit;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        
+        .item1-top {
+          display: flex;
+          width: 100%;
+          height: 20%;
+          flex-flow: column wrap;
+          justify-content: center;
+          align-items: flex-start;
+          .item1-top-1 {
+            width: 50%;
+            padding-top: 5px;
+            padding-right: 3px;
+            box-sizing: border-box;
+            font-size: 12px;
+          }
+          .item1-top-2 {
+            width: 50%;
+            color: grey;
+            font-size: 8px;
+            padding-top: 5px;
+            padding-right: 5px;
+            box-sizing: border-box;
+          }
+        }
+        .item1-center {
+            display: flex;
+            width: 100%;
+            height: 70%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+            .item1-center-item {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              flex-flow: column nowrap;
+              justify-content: center;
+            align-items: center;
+              .item1-center-item-top{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-items: center;
+                .t-r{
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            width: 75%;
+                            background-size: cover;
+
+                        }
+                    }
+                }
+                .t-l{
+                    width: 50%;
+                    height: 100%;
+                    a{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            width: 75%;
+                            
+                            background-size: cover;
+                            
+                        }
+                    }
+                }
+              }
+
+              .item1-center-item-bottom{
+                
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-items: center;
+                .b-r{
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            width: 75%;
+                            background-size: cover;
+
+                        }
+                    }
+                }
+                .b-l{
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            width: 75%;
+                            background-size: cover;
+
+                        }
+                    }
+                }
+              }
+            }
+            .item1-top-2 {
+              width: 100%;
+            }
+          }
+          .item1-bottom {
+            display: flex;
+                align-items: center;
+                justify-content: center;
+            width: 100%;
+            height: 10%;
+            div{
+                width: 60px;
+                    height: 26px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a{
+                    width: 58px;
+                    height: 26px;
+                    display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+                    span{
+                        font-size: 14px;
+                        color: aqua;
+                        width: 40px;
+    
+                    }
+                    img{
+                        width: 16px;
+                    }
+                }
+            }
+            
+      }
+    }
+  }
+}
+.border-left{
+    
+    border-left: 1px rgb(219, 218, 218) solid;
+  }
+
+.border-bottom {
+    border-bottom:1px rgb(219, 218, 218) solid;
+}
+
+  

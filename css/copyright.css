@@ -1,0 +1,21 @@
+.copyright {
+  width: 95%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .copyright-center {
+    width: 95%;
+    height: 24px;
+    padding: 32px 0px 32px 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 8px;
+      font-family: var(--fontFamily);
+      border: 1px whitesmoke solid;
+    }
+  }
+}

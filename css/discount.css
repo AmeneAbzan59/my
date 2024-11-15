@@ -1,0 +1,28 @@
+.discount {
+  width: 100%;
+  height: 185px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  .discount-center {
+    width: 65%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 18px;
+    .discount-center-item {
+      width: 23%;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+        border-radius: 15px;
+      }
+    }
+  }
+}
